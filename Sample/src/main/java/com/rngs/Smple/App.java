@@ -12,7 +12,8 @@ public class App
     {
     	int i,j,k;
     	
-    	Scanner sn = new Scanner(System.in);
+    	@SuppressWarnings("resource")
+		Scanner sn = new Scanner(System.in);
     	System.out.print("Enter the value of i :");
     	i= sn.nextInt();
     	System.out.print("Enter the value of j :");
