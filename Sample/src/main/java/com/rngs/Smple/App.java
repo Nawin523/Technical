@@ -1,5 +1,8 @@
 package com.rngs.Smple;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -24,5 +27,20 @@ public class App
     	System.out.println("addition of i and j is :" +k);
     	
         System.out.println( "Hello Vasudha Meesala!" );
+        
+        List list = new ArrayList<Integer>();
+        list.add(81);
+        list.add(52);
+        list.add(75);
+        list.add(2,58);
+        
+       Iterator itr = list.iterator();
+       while(itr.hasNext()) {
+       System.out.println(itr.next());
+    	   
+       }
+       
+       System.out.println(list.get(3));
+        
     }
 }
