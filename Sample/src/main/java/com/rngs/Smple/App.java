@@ -1,4 +1,4 @@
-package com.rngs.Smple;
+package com.rngs.Sample;
 
 import java.util.ArrayList;
 import java.util.Iterator;
