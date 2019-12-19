@@ -11,10 +11,6 @@ import java.util.stream.Collectors;
 
 import com.rngs.Car;
 
-/**
- * Hello world!
- *
- */
 public class App {
 	public static void main(String[] args) {
 		int i, j, k;
@@ -25,9 +21,7 @@ public class App {
 		i = sn.nextInt();
 		System.out.print("Enter the value of j :");
 		j = sn.nextInt();
-		// i=20;j=25;
 		k = i + j;
-
 		System.out.println("addition of i and j is :" + k);
 
 		System.out.println("Hello Vasudha Meesala!");
@@ -111,6 +105,5 @@ public class App {
 		List<Integer> carDoors = lis4.stream().map(n -> n.noOfDoors).collect(Collectors.toList());
 		System.out.println(carDoors);
 		// End
-
 	}
 }
