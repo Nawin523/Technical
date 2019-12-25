@@ -4,7 +4,7 @@ public class GenericResponse {
 	
 	private String status;
 	private String message;
-	
+	 
 	public GenericResponse() {
 		
 	}

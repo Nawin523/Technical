@@ -7,7 +7,7 @@ import com.rngs.restful.resource.model.Person;
 
 public class PersonService {
 	List<Person> list = new ArrayList<Person>();
-	
+ 	
 	public List<Person> getAllPeresons(){
 	Person preson1 = new Person("Naveen",29,1);
 	Person preson2 = new Person("VAsudha",24,2);

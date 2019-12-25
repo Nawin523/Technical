@@ -26,7 +26,7 @@ public class Restfacad {
 	@Path("/getAllPersons")
 	public String getAllPersons() throws JsonProcessingException {
 		List<Person> persons = ps.getAllPeresons();
-		//Gson json = new Gson();
+		//Gson json = new Gson(); 
 		ObjectMapper objm = new ObjectMapper();
 		
 		return objm.writeValueAsString(persons);
